@@ -4,7 +4,7 @@
 java_library {
     name: "libnanohttpd",
     srcs: ["core/src/main/**/*.java"],
-    sdk_version: "current",
+    sdk_version: "30",
 }
 
 // This module target includes SimpleWebServer that supports additional functionality
