@@ -29,6 +29,7 @@ java_library {
     srcs: ["core/src/main/**/*.java"],
     sdk_version: "current",
     min_sdk_version: "30",
+    apex_available: ["com.android.wifi"],
 }
 
 // This module target includes SimpleWebServer that supports additional functionality
